@@ -1,7 +1,7 @@
 public class ContaPoupanca extends ContaCorrente{
 
 
-    public ContaPoupanca(Pessoa titular, String nro, String agencia, int banco) {
+    public ContaPoupanca(PessoaFisica titular, String nro, String agencia, int banco) {
         super(titular, nro, agencia, banco);
     }
 
